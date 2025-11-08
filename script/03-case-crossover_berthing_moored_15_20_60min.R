@@ -89,7 +89,7 @@ meteo_simepar <- data.table::fread("./data/dados_simepar.csv") %>%
 
 
 #==== TRAJ MIXDEPTH ----
-trajetorias_10 <- readRDS("output/Hysplit/hysplit_output/paranagua_96h_10m_15min.rds")
+trajetorias_10 <- readRDS("output/paranagua_96h_10m_60min.rds")
 
 
 traj_10 <- trajetorias_10 %>%
